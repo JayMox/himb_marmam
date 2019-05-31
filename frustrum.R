@@ -1,8 +1,8 @@
 ##frustum calcs, JHMoxley, May 30 2019
 spp <- data.frame(species = rbind("Southern_Right_Whales",
-                          "Humpback_Whales",
-                          "Gray_Whales", 
-                          "Bottlenose_Dolphin"), 
+                                  "Humpback_Whales",
+                                  "Gray_Whales", 
+                                  "Bottlenose_Dolphin"), 
                   start = c(25, 25,20, 10),
                   end = c(90, 90, 90, 90))
 spp$species <- as.character(spp$species)
